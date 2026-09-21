@@ -1,11 +1,62 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="10a.css">
-</head>
+<style>
+body {
+  font-family: Arial;
+}
 
-<body>
+.profile {
+  width: 500px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
 
+.profile-picture {
+  width: 95px;
+  height: 95px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  width: 304px;
+}
+
+.name {
+  font-size: 29px;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+.description {
+  font-size: 27px;
+  color: rgb(120, 120, 120);
+  line-height: 38px;
+}
+
+.popular {
+  font-size: 27px;
+  color: rgb(120, 120, 120);
+  line-height: 38px;
+}
+
+button {
+  width: 132px;
+  height: 62px;
+  background-color: rgb(66, 133, 232);
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 26px;
+  font-weight: bold;
+}
+</style>
+  
   <div class="profile">
 
     <img class="profile-picture" src="pic1.jpg">
@@ -19,6 +70,3 @@
     <button>Follow</button>
 
   </div>
-
-</body>
-</html>
